@@ -1,0 +1,28 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
+.calculator{
+	display: flex;
+	flex-wrap: wrap-reverse;
+	margin: auto;
+	height: 500px;
+	width: 500px;
+	background-color: rgb(39, 176, 246);
+	font-size: 24px;
+	font-family: "verdana", "helvetica", "arial", sans-serif;
+	color: #777;
+}
+button, input{
+	justify-content: space-around;
+	
+	height: 65px;
+	width:100px;
+}
+input{
+	
+}
