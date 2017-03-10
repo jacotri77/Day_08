@@ -1,0 +1,52 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
+body{
+	background-color: rgb(22, 112, 194)
+}
+
+.calculator{
+	margin: auto;
+	height: 400px;
+	width: 580px;
+	background-color: rgb(49, 70, 114);
+	font-size: 24px;
+	font-family: "verdana", "helvetica", "arial", sans-serif;
+	color: #777;
+}
+
+.top{
+	display: block;
+	margin-top: 15px;
+
+}
+button, input{
+	
+	height: 65px;
+	font-size: 24px;
+	font-family: "verdana", "helvetica", "arial", sans-serif;
+	color: #777;
+	border: 2px solid rgb(24, 33, 47);
+
+}
+
+button{
+	width: 120px;
+	margin-left: 15px;
+	
+}
+input{
+	width:405px;
+	margin-left: 15px;
+	padding-left: 25px;
+	text-align:right;
+}
+
+#seven, #eight, #nine, #divide, #clear, input {
+	margin-top: 15px;
+}

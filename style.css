@@ -7,10 +7,10 @@ html {
 }
 
 .calculator{
-	display: flex;
-	flex-wrap: wrap-reverse;
+
+	display: block;
 	margin: auto;
-	height: 500px;
+	height: 200px;
 	width: 500px;
 	background-color: rgb(39, 176, 246);
 	font-size: 24px;
@@ -18,11 +18,9 @@ html {
 	color: #777;
 }
 button, input{
-	justify-content: space-around;
-	
+	padding-left: 15px;
+	margin: 10px 0px 0px 10px;
 	height: 65px;
 	width:100px;
 }
-input{
-	
-}
+
